@@ -1,0 +1,30 @@
+/** Step one **/
+
+/** Step two **/
+h1,h2,h3,h4,h5,h6{
+    font-family:"Rubic", sans-serif ;
+}
+/** Step three **/
+body h1{
+    color: #072d67 ;
+    font-size: 46px;
+    letter-spacing: 1.75px;
+    text-align: center;
+}
+/** Step four **/
+p, a, li{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.6em;
+}
+/** Step five **/
+p span{
+    color: blueviolet;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+/** Step six **/
+body h3{
+    font-size: 1.8em;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, .5);
+}
