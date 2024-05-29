@@ -1,0 +1,44 @@
+body{
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header header"
+        "hero hero hero hero"
+        "main main main aside"
+        "footer footer footer footer"; 
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+}
+p,a,li{
+    font-size: 1.2em;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+header{
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: #f6f4e8;
+}
+header div{
+    flex-grow: 1;
+    width: auto;
+    height: 125px;
+}
+header div img{
+    width: auto;
+    height: 100%;
+}
+header menu{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+}
+header menu li{
+    padding: 0px 10px;
+}
